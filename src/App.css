@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+h3,li{
+  color: white;
+}
+
+footer{
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background:#999;
+}
